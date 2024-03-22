@@ -365,14 +365,7 @@ $ ./tools/build_boot_image -I -r $ROOT -c ttyb # sets the default console to tty
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>configure-projects</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件采用以下格式：</font></font></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>&lt;path relative to ./projects&gt;:&lt;project branch&gt;:[project git repo URL or path]
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="<path relative to ./projects>:<project branch>:[project git repo URL or path]" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用特殊令牌</font></font><code>origin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替完整的 git 存储库 URL 来表示该项目的标准 github.com 位置。</font><font style="vertical-align: inherit;">如果没有给出 URL，我们默认为 github.com。</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您更新了与存储库对应的分支名称，请重新运行
@@ -388,18 +381,7 @@ ON_CLOSED_BINS_URL="https://us-central.manta.mnx.io/Joyent_Dev/public/releng/ill
 ON_CLOSED_BINS_ND_URL="https://us-central.manta.mnx.io/Joyent_Dev/public/releng/illumos/on-closed-bins-nd.i386.tar.bz2"
 ILLUMOS_ADJUNCT_TARBALL_URL="https://us-central.manta.mnx.io/Joyent_Dev/public/releng/adjuncts/illumos-adjunct.20210922.tgz"
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="PUBLISHER=&quot;joyent&quot;
-RELEASE_VER=&quot;joyent_147&quot;
-ON_CLOSED_BINS_URL=&quot;https://us-central.manta.mnx.io/Joyent_Dev/public/releng/illumos/on-closed-bins.i386.tar.bz2&quot;
-ON_CLOSED_BINS_ND_URL=&quot;https://us-central.manta.mnx.io/Joyent_Dev/public/releng/illumos/on-closed-bins-nd.i386.tar.bz2&quot;
-ILLUMOS_ADJUNCT_TARBALL_URL=&quot;https://us-central.manta.mnx.io/Joyent_Dev/public/releng/adjuncts/illumos-adjunct.20210922.tgz&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试版本</font></font></h3><a id="user-content-debug-builds" class="anchor" aria-label="永久链接：调试构建" href="#debug-builds"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，所有 SmartOS 都是非调试构建的。</font><font style="vertical-align: inherit;">可以构建 SmartOS 的调试版本。</font><font style="vertical-align: inherit;">此调试版本主要通过创建 illumos 的调试版本来更改内容。</font><font style="vertical-align: inherit;">illumos 的调试版本将导致各种结果，例如：</font></font></p>
@@ -416,17 +398,7 @@ $ cd smartos-live
 $ ./configure -d
 $ gmake live
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ git clone https://github.com/TritonDataCenter/smartos-live
-$ cd smartos-live
-$ ./configure -d
-$ gmake live" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有现有的构建环境，则可以修改
 </font></font><code>illumos.sh</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成的文件以使其执行调试构建。</font><font style="vertical-align: inherit;">但是，如果您已经构建了 illumos，建议您在执行其他操作之前先破坏它。</font><font style="vertical-align: inherit;">例如：</font></font></p>
@@ -435,17 +407,7 @@ $ vi projects/illumos/illumos.sh
 # Add -DF to the NIGHTLY_OPTIONS line
 $ gmake live
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ gmake clobber
-$ vi projects/illumos/illumos.sh
-# Add -DF to the NIGHTLY_OPTIONS line
-$ gmake live" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>-D</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志指示应执行调试构建，而该
 </font></font><code>-F</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志指示我们不应同时执行调试和非调试构建。</font><font style="vertical-align: inherit;">这样做是因为我们没有将构建设置为支持多个原型区域，这最终只会导致系统破坏一个构建与另一个构建。</font><font style="vertical-align: inherit;">有关夜间标志的更多信息，请参阅</font></font><a href="https://illumos.org/man/1onbld/nightly" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nightly(1ONBLD)</font></font></a></p>
@@ -466,15 +428,7 @@ $ gmake live" tabindex="0" role="button">
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>$ cd projects/illumos/usr/src
 $ ./tools/proto/root_i386-nd/opt/onbld/bin/bldenv ../../illumos.sh
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ cd projects/illumos/usr/src
-$ ./tools/proto/root_i386-nd/opt/onbld/bin/bldenv ../../illumos.sh" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从这里，您可以遵循</font></font><a href="https://www.illumos.org/books/dev/workflow.html#incremental-building" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">illumos 开发人员指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 来构建各个组件。</font><font style="vertical-align: inherit;">如果您构建了所需的所有内容，并且它对更广泛的 SmartOS 构建中的其他组件没有影响，那么一旦完成，您就可以</font></font><code>gmake live</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次运行。</font><font style="vertical-align: inherit;">例如，如果您在平台中迭代某种驱动程序或命令，那么您可以简单地使用</font></font><code>dmake install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将构建工件放入原型区域，然后</font></font><code>gmake live</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 smartos-live 的顶层运行以重建平台映像。</font></font></p>
@@ -493,18 +447,7 @@ $ STRAP= \
   CTFCONVERT=/home/rm/src/mdb_v8/projects/illumos/usr/src/tools/proto/*/opt/onbld/bin/i386/ctfconvert \
   gmake DESTDIR=/home/rm/src/mdb_v8/proto install
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ cd projects/illumos-extra/binutils
-$ STRAP= \
-  CTFMERGE=/home/rm/src/mdb_v8/projects/illumos/usr/src/tools/proto/*/opt/onbld/bin/i386/ctfmerge \
-  CTFCONVERT=/home/rm/src/mdb_v8/projects/illumos/usr/src/tools/proto/*/opt/onbld/bin/i386/ctfconvert \
-  gmake DESTDIR=/home/rm/src/mdb_v8/proto install" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请不要使用上述命令并在您的环境中运行它。</font><font style="vertical-align: inherit;">这是一个例子。</font><font style="vertical-align: inherit;">实际的 illumos-extra 每个目录调用可能已更改。</font><font style="vertical-align: inherit;">无论您是否在引导阶段进行操作，这也会有所不同。</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，运行</font></font><code>install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标将执行增量构建。</font><font style="vertical-align: inherit;">如果部分构建已完成，则不会再次提取源代码，也不会应用补丁。</font><font style="vertical-align: inherit;">如果您要更改任何应用或配置选项的补丁，则应使用</font></font><code>clean</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
@@ -538,29 +481,7 @@ f usr/bin/grep 0555 root bin
 h usr/bin/egrep=usr/bin/grep
 s usr/bin/coolgrep=usr/bin/grep
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#
-# This is a file:
-# f path/to/file <perms> <user> <group>
-# This is a directory:
-# d path/to/dir <perms> <user> <group>
-# This is a symlink:
-# s <target>=<source>
-# This is a hardlink:
-# h <target>=<source>
-# For example:
-#
-d usr 0755 root sys
-d usr/bin 0755 root sys
-f usr/bin/grep 0555 root bin
-h usr/bin/egrep=usr/bin/grep
-s usr/bin/coolgrep=usr/bin/grep" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们交付的东西只能从构建它的存储库添加到清单文件中。</font><font style="vertical-align: inherit;">例如，因为 illumos-joyent 提供了它，所以</font></font><code>/usr/sbin/dtrace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它应该位于 illumos-joyent 的清单文件中，而不是任何其他存储库中。</font><font style="vertical-align: inherit;">以这种方式将它们分开可以让我们最大限度地减少需要一次更新多个存储库的构建时间标记日。</font></font></p>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设备驱动程序</font></font></h3><a id="user-content-device-drivers" class="anchor" aria-label="永久链接：设备驱动程序" href="#device-drivers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
@@ -571,18 +492,7 @@ usr/src/uts/intel/os/driver_classes
 usr/src/uts/intel/os/name_to_major
 usr/src/uts/intel/os/minor_perm
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="usr/src/uts/intel/os/device_policy
-usr/src/uts/intel/os/driver_aliases
-usr/src/uts/intel/os/driver_classes
-usr/src/uts/intel/os/name_to_major
-usr/src/uts/intel/os/minor_perm" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此构建中包含的所有存储库都使用 GitHub 拉取请求来进行新更改。</font></font></p>
@@ -594,18 +504,7 @@ TritonDataCenter/smartos-live#10000 make a related change
 Reviewed by: Steve Reviewer &lt;steve.reviewer@gmail.com&gt;
 Approved by: Amy Approver &lt;amy.approver@gmail.com&gt;
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="TritonDataCenter/smartos-live#9999 make some changes (#23)
-
-TritonDataCenter/smartos-live#10000 make a related change
-Reviewed by: Steve Reviewer <steve.reviewer@gmail.com>
-Approved by: Amy Approver <amy.approver@gmail.com>" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一行应该是 bug ID 和标题，后面可以选择添加 GitHub 添加的 PR 编号。</font><font style="vertical-align: inherit;">在空行之后，提交正文应列出此更改中修复的所有其他错误以及常用的审阅者标签。</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了至少一次代码审查之外，您还需要记录您的测试并获得“集成批准”（“批准者”标签）。</font></font></p>
@@ -655,26 +554,7 @@ At least one of -c, -e, -r is required.
   -w       when mounting the lofs /usr, make it writable
 
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="[root@kura ~]# /opt/smartos-test/bin/smartos-test -h
-Usage: smartos-test [-h] [-c] [-e] [-r] [-w] <path to tests.tgz>
-
-At least one of -c, -e, -r is required.
-
-  -h       print usage
-  -c       configure the system for testing
-  -e       execute known tests
-  -f       skip the check to ensure platform version == test version
-  -r       snapshot or rollback to zones/opt@system-test-smartos-test
-           before doing any system configuration or test execution
-  -w       when mounting the lofs /usr, make it writable
-" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员应从测试存档中提取脚本，然后使用指向测试存档的参数运行它，并使用一个或多个选项
 </font></font><code>-r</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>-c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>-e</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
@@ -813,134 +693,7 @@ Percent passed: 100.0%
 Log directory:  /var/tmp/test_results/20191002T101510
 [root@kura /var/tmp]#
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="[root@kura /var/tmp]# tar zvxf tests-test_archive-master-20191001T134222Z.tgz ./opt/smartos-test
-Decompressing 'tests-test_archive-master-20191001T134222Z.tgz' with '/usr/bin/gzcat'...
-x ./opt/smartos-test, 0 bytes, 0 tape blocks
-x ./opt/smartos-test/README, 958 bytes, 2 tape blocks
-x ./opt/smartos-test/bin, 0 bytes, 0 tape blocks
-x ./opt/smartos-test/bin/smartos-test, 10062 bytes, 20 tape blocks
-
-[root@kura /var/tmp]# ./opt/smartos-test/bin/smartos-test -rce ./tests-test_archive-master-20191001T134222Z.tgz
-Platform version: 20191001T134222Z
-   Tests version: 20191001T134222Z
-To setup and run these tests you must create the file:
-    /lib/sdc/.sdc-test-no-production-data
-after ensuring you have no production data on this system.
-[root@kura /var/tmp]# touch /lib/sdc/.sdc-test-no-production-data
-
-[root@kura /var/tmp]# ./opt/smartos-test/bin/smartos-test -rce ./tests-test_archive-master-20191001T134222Z.tgz
-Platform version: 20191001T134222Z
-   Tests version: 20191001T134222Z
-Running zfs snapshot zones/opt@system-test-smartos-test
-Creating new lofs mount for /usr on /var/tmp/smartos-test-loopback
-820704 blocks
-Running tar -xzf ./tests-test_archive-master-20191001T134222Z.tgz -C /var/tmp/smartos-test-loopback ./usr
-Running mount -O -F lofs -o ro /var/tmp/smartos-test-loopback/usr /usr
-Running tar -xzf ./tests-test_archive-master-20191001T134222Z.tgz -C / ./opt ./kernel ./tests.manifest.gen ./tests.buildstamp
-adding cyrus user
-adding ztest user
-Running curl -kO https://pkgsrc.smartos.org/packages/SmartOS/bootstrap/bootstrap-2021Q4-tools.tar.gz
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 22.9M  100 22.9M    0     0   566k      0  0:00:41  0:00:41 --:--:--  577k
-Running tar -zxpf bootstrap-2021Q4-tools.tar.gz -C /
-Running ln -s /opt/tools /opt/local
-Running pkgin -y in python27 sudo coreutils gcc7 gmake
-reading local summary...
-processing local summary...
-processing remote summary (https://pkgsrc.smartos.org/packages/SmartOS/2021Q4/tools/All)...
-pkg_summary.xz                                                                                        100%  120KB 119.9KB/s   00:00
-calculating dependencies...done.
-
-1 package to refresh:
-  bzip2-1.0.8
-
-13 packages to install:
-  libiconv-1.14nb3 tcp_wrappers-7.6.4 libffi-3.2.1nb4 gettext-lib-0.19.8.1 db4-4.8.30 openldap-client-2.4.47 cyrus-sasl-2.1.27
-  binutils-2.26.1nb1 python27-2.7.15nb1 sudo-1.8.26 coreutils-8.29nb1 gcc7-7.3.0nb4 gmake-4.2.1nb1
-
-1 to refresh, 0 to upgrade, 13 to install
-137M to download, 415M to install
-
-libiconv-1.14nb3.tgz                                                                                  100% 2068KB 689.3KB/s   00:03
-libffi-3.2.1nb4.tgz                                                                                   100%   59KB  59.4KB/s   00:00
-gettext-lib-0.19.8.1.tgz                                                                              100%   67KB  67.3KB/s   00:00
-
-.
-. (output omitted for brevity)
-.
-
-gcc7-7.3.0nb4: registering info file /opt/tools/gcc7/info/libquadmath.info
-installing gmake-4.2.1nb1...
-gmake-4.2.1nb1: registering info file /opt/tools/info/make.info
-pkg_install warnings: 0, errors: 0
-reading local summary...
-processing local summary...
-marking python27-2.7.15nb1 as non auto-removable
-marking sudo-1.8.26 as non auto-removable
-marking coreutils-8.29nb1 as non auto-removable
-marking gcc7-7.3.0nb4 as non auto-removable
-marking gmake-4.2.1nb1 as non auto-removable
-Starting test runs
-
-Starting test for bhyvetest with /opt/bhyvetest/bin/bhyvetest -ak
-Starting tests...
-output directory: /var/tmp/bhyvetest.23953
-Executing test /opt/bhyvetest/tst/mevent/lists.delete.exe ... passed
-Executing test /opt/bhyvetest/tst/mevent/read.disable.exe ... passed
-Executing test /opt/bhyvetest/tst/mevent/read.pause.exe ... passed
-Executing test /opt/bhyvetest/tst/mevent/read.requeue.exe ... passed
-
--------------
-Results
--------------
-
-Tests passed: 4
-Tests failed: 0
-Tests ran:    4
-
-Congrats, some tiny parts of bhyve aren't completely broken, the tests pass.
-
-Starting test-runner for crypto-tests with /opt/crypto-tests/runfiles/default.run
-Test: /opt/crypto-tests/tests/aes/kcf/setup (run as root)         [00:00] [PASS]
-Test: /opt/crypto-tests/tests/aes/kcf/aes_cbc_32 (run as root)    [00:00] [PASS]
-Test: /opt/crypto-tests/tests/aes/kcf/aes_ccm_32 (run as root)    [00:00] [PASS]
-
-.
-. (output omitted for brevity)
-.
-
-Test: /opt/util-tests/tests/vnic-mtu (run as root)                [00:00] [PASS]
-Test: /opt/util-tests/tests/xargs_test (run as root)              [00:00] [PASS]
-Test: /opt/util-tests/tests/awk/runtests.sh (run as nobody)       [02:35] [PASS]
-Test: /opt/util-tests/tests/ctf/precheck (run as root)            [00:00] [PASS]
-Test: /opt/util-tests/tests/ctf/ctftest (run as root)             [00:06] [PASS]
-Test: /opt/util-tests/tests/demangle/afl-fast (run as root)       [00:01] [PASS]
-Test: /opt/util-tests/tests/demangle/gcc-libstdc++ (run as root)  [00:00] [PASS]
-Test: /opt/util-tests/tests/demangle/llvm-stdcxxabi (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_00_blank (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_01_boolean (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_02_numbers (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_03_empty_arrays (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_04_number_arrays (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_05_strings (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_06_nested (run as root) [00:00] [PASS]
-Test: /opt/util-tests/tests/libnvpair_json/json_07_nested_arrays (run as root) [00:00] [PASS]
-
-Results Summary
-PASS      30
-
-Running Time:   00:02:47
-Percent passed: 100.0%
-Log directory:  /var/tmp/test_results/20191002T101510
-[root@kura /var/tmp]#" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，每个测试套件都会发出自己的结果摘要。</font></font><code>smartos-test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果任何测试套件失败，则在脚本退出之前</font><font style="vertical-align: inherit;">发出这些套件的名称。</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当开发人员向 illumos 添加测试时，他们应该确保添加新测试，</font></font><code>$SRC/usr/src/pkg/manifests/\*.p5m</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为这些 IPS 清单用于在 SmartOS 构建期间生成测试存档。</font></font></p>
